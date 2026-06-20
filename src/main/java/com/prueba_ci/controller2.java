@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class controller2 {
     @GetMapping("/hola")
     public String saludar() {
-        String mensaje = "Hola desde Spring Boot con error"
+        String mensaje = "Hola desde Spring Boot con error";
         return mensaje;
     }
 }
